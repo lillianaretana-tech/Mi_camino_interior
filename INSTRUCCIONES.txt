@@ -1,0 +1,16 @@
+MI CAMINO INTERIOR — REEMPLAZO LIMPIO DE PWA
+
+Archivos que debes subir a la RAÍZ del repositorio Mi_camino_interior (rama main):
+  manifest.webmanifest
+  sw.js
+  icon-192.png
+  icon-512.png
+
+IMPORTANTE:
+- No borres ni reemplaces index.html. Ya tiene la referencia al manifest y el registro de sw.js.
+- GitHub: Add file > Upload files, arrastra los cuatro archivos, confirma reemplazar los existentes y pulsa Commit changes.
+- Espera a que GitHub Pages publique los cambios.
+- En Android, desinstala la PWA anterior antes de volver a instalar desde Chrome.
+- La página y el contenido no cambian. El cambio no garantiza por sí solo la instalación: si sigue fallando, habrá que inspeccionar el error de Chrome/Android.
+
+Configuración: rutas relativas al repositorio, íconos PNG reales de 192 y 512 píxeles, SW sin precache obligatorio y caché renovado.

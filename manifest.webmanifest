@@ -3,6 +3,7 @@
   "short_name": "Mi Camino",
   "description": "Mi libro personal de aprendizaje, reflexión y crecimiento consciente.",
   "lang": "es",
+  "id": "./",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
@@ -21,10 +22,5 @@
       "type": "image/png",
       "purpose": "any"
     }
-  ],
-  "id": "./",
-  "display_override": [
-    "standalone",
-    "minimal-ui"
   ]
 }
