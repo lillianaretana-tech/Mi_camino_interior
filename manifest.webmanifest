@@ -3,8 +3,8 @@
   "short_name": "Mi Camino",
   "description": "Mi libro personal de aprendizaje, reflexión y crecimiento consciente.",
   "lang": "es",
-  "start_url": "/Mi_camino_interior/index.html",
-  "scope": "/Mi_camino_interior/",
+  "start_url": "./index.html",
+  "scope": "./",
   "display": "standalone",
   "background_color": "#fffaf6",
   "theme_color": "#f4e9e4",
@@ -22,9 +22,5 @@
       "purpose": "any"
     }
   ],
-  "id": "/Mi_camino_interior/",
-  "display_override": [
-    "standalone",
-    "minimal-ui"
-  ]
+  "id": "./"
 }
